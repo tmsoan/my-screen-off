@@ -319,7 +319,9 @@ class FloatingButton(
                     } else {
                         // performClick's own animation must outlive wake(), so wake first.
                         wake()
-                        if (released) view.performClick()
+                        // A hold let go before the long press is neither, so it must not lock.
+                        val tapped = event.eventTime - event.downTime < ViewConfiguration.getLongPressTimeout()
+                        if (released && tapped) view.performClick()
                     }
                 }
             }
