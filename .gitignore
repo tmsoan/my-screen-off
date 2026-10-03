@@ -15,8 +15,6 @@
 .cxx
 local.properties
 
-# Release signing key and passwords
-/keystore/
 
 # Kotlin compiler caches
 .kotlin
