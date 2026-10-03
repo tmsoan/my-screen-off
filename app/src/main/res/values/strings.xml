@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Eh ScreenOff</string>
+    <string name="accessibility_service_description">Shows a floating button that locks the screen when tapped. The service does not read screen content or anything you type.</string>
+
+    <string name="action_reset">Reset settings</string>
+    <string name="lock_screen">Lock screen</string>
+
+    <string name="setup_title">Turn on the floating button</string>
+    <string name="setup_message">Android only lets accessibility services lock the screen. Open Accessibility settings, choose %1$s and turn it on.</string>
+    <string name="setup_restricted_hint">If the switch is greyed out, open this app\'s App info, tap the ⋮ menu and choose \"Allow restricted settings\".</string>
+    <string name="setup_open_settings">Open Accessibility settings</string>
+    <string name="setup_turn_on">Turn on</string>
+    <string name="usage_hint">Hold the button for 5 seconds to open this app. Drag it to the bottom of the screen to hide it; open this app to bring it back.</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="button_size">Size</string>
+    <string name="button_color">Color</string>
+    <string name="button_opacity">Opacity</string>
+
+    <string name="section_behavior">Behavior</string>
+    <string name="fade_when_idle">Fade when not in use</string>
+    <string name="idle_opacity">Faded opacity</string>
+    <string name="fade_delay">Fade after</string>
+    <string name="lock_delay">Delay before locking</string>
+    <string name="lock_delay_hint">Tap the button again during the delay to cancel.</string>
+    <string name="snap_to_edge">Pin to left or right edge</string>
+    <string name="haptic_feedback">Vibrate on tap</string>
+
+    <string name="section_quick_toggle">Quick Settings tile</string>
+    <string name="quick_toggle_message">Some banking apps will not open while this app\'s accessibility service is on. Add the %1$s tile to Quick Settings, tap it to turn the service off before using the banking app, then tap it again afterwards.</string>
+    <string name="quick_toggle_ready">Ready: the tile turns the service on and off.</string>
+    <string name="quick_toggle_setup">One-time setup: turn on USB debugging, connect this phone to a computer and run the command below. You can turn USB debugging off afterwards. Until then, the tile opens this app.</string>
+    <string name="quick_toggle_add">Add tile</string>
+
+    <string name="value_percent">%1$d%%</string>
+    <string name="value_dp">%1$d dp</string>
+    <string name="value_seconds">%1$.1f s</string>
+    <string name="value_none">None</string>
+</resources>
